@@ -10,6 +10,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sitecore", "Sitecore", "{F46B3A34-3E5C-45C2-84CE-0CE660EFA962}"
+	ProjectSection(SolutionItems) = preProject
+		..\Sitecore.ContentSearch\z.Additio.Lucene.DefaultIndexConfiguration.DanishExecutionContext.config = ..\Sitecore.ContentSearch\z.Additio.Lucene.DefaultIndexConfiguration.DanishExecutionContext.config
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
