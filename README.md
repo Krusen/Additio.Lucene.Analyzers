@@ -1,4 +1,7 @@
 # Danish Analyzer for Lucene.NET
+[![AppVeyor](https://ci.appveyor.com/api/projects/status/sjhc92paw2hpb938/branch/master?svg=true)](https://ci.appveyor.com/project/Krusen/additio-lucene-analyzers)
+[![NuGet Analyzer](https://buildstats.info/nuget/additio.lucene.analyzers.danish?includePreReleases=false)](https://www.nuget.org/packages/Additio.Lucene.Analyzers.Danish/)
+[![NuGet Sitecore](https://buildstats.info/nuget/additio.lucene.analyzers.danish.sitecore?includePreReleases=false)](https://www.nuget.org/packages/Additio.Lucene.Analyzers.Danish.Sitecore/)
 
 I was looking for a danish analyzer for [Lucene.Net](https://github.com/apache/lucenenet) but couldn't find any. 
 There exists on in the [Lucene project](http://lucene.apache.org/core/) (JAVA) and it has somewhat recently been ported to [Lucene.Net](https://github.com/apache/lucenenet)
