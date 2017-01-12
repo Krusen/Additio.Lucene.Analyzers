@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Additio.Lucene.Analyzers.Danish</id>
+    <version>1.0.0</version>
+    <authors>Søren Kruse</authors>
+    <licenseUrl>https://github.com/Krusen/Additio.Lucene.Analyzers/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/Krusen/Additio.Lucene.Analyzers</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Danish analyzer for Lucene.Net with danish stemmer. Made for Lucene.Net 3.0.3</description>
+    <copyright></copyright>
+    <tags>lucene analyzer analyzers danish</tags>
+  </metadata>
+  <files>
+    <file src="src/Additio.Lucene.Analyzers/bin/Release/Additio.Lucene.Analyzers.dll" target="lib/net45" />
+    <file src="src/Additio.Lucene.Analyzers/bin/Release/Additio.Lucene.Analyzers.pdb" target="lib/net45" />
+  </files>
+</package>

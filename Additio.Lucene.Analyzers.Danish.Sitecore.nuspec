@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Additio.Lucene.Analyzers.Danish.Sitecore</id>
+    <version>1.0.0</version>
+    <authors>Søren Kruse</authors>
+    <licenseUrl>https://github.com/Krusen/Additio.Lucene.Analyzers/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/Krusen/Additio.Lucene.Analyzers</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Danish analyzer for Lucene.Net with danish stemmer, including config file for Sitecore. Made for Sitecore 8 and Lucene.Net 3.0.3</description>
+    <copyright></copyright>
+    <tags>lucene analyzer analyzers danish sitecore</tags>
+    <dependencies>
+      <dependency id="Additio.Lucene.Analyzers.Danish" version="1.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Sitecore.ContentSearch/z.Additio.Lucene.DefaultIndexConfiguration.DanishExecutionContext.config" target="content/App_Config/Include" />
+  </files>
+</package>

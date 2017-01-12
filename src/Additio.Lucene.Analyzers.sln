@@ -16,6 +16,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sitecore", "Sitecore", "{F4
 		..\Sitecore.ContentSearch\z.Additio.Lucene.DefaultIndexConfiguration.DanishExecutionContext.config = ..\Sitecore.ContentSearch\z.Additio.Lucene.DefaultIndexConfiguration.DanishExecutionContext.config
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{EE0191E4-02A6-421C-A6B2-E762F3C98BD6}"
+	ProjectSection(SolutionItems) = preProject
+		..\Additio.Lucene.Analyzers.Danish.nuspec = ..\Additio.Lucene.Analyzers.Danish.nuspec
+		..\Additio.Lucene.Analyzers.Danish.Sitecore.nuspec = ..\Additio.Lucene.Analyzers.Danish.Sitecore.nuspec
+		..\build.cake = ..\build.cake
+		..\build.ps1 = ..\build.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Git", "Git", "{E90101DC-E4EA-4F35-B0B0-47AE6621A3D6}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
